@@ -1,0 +1,402 @@
+
+<!doctype html>
+<!-- INFO1005 Website Design — Module 3.1 completed Maggie Simpson example -->
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kotiv Legaspi's ICT and cybersecurity portfolio, showcasing projects, technical skills, education and experience.">
+  <meta name="author" content="Kotiv Legaspi">
+  <title>Kotiv Legaspi | ICT Portfolio</title>
+
+  <!-- FAVICON — already supplied. Later replace these with your own favicon files. -->
+  <link rel="icon" type="image/png" href="img/kl-logo.png">
+  <link rel="apple-touch-icon" href="img/kl-logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your CSS comes last so it can style Bootstrap components. -->
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Main navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top" aria-label="Kotiv Legaspi home">
+      <img src="img/kl-logo.png" alt="KL Personal Logo" class="brand-icon rounded-circle">
+      <span class="d-none d-sm-inline">Kotiv Legaspi</span>
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contactme">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="pdf/Resume (Assessment).png" target="_blank">Resume</a></li>
+      </ul>
+
+      <div class="form-check form-switch theme-switch">
+        <input class="form-check-input" type="checkbox" role="switch"
+               id="themeSwitch" aria-label="Toggle dark mode">
+        <label class="form-check-label" for="themeSwitch">Dark</label>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  <header class="container hero-section">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-7">
+        <h1>Kotiv Legaspi</h1>
+        <p class="eyebrow">Information Technology · Cybersecurity · Programming</p>
+
+        <p class="lead-copy">
+          ICT student with an interest in Cybersecurity, Networking and Programming.
+          Building practical skills through academic projects.
+        </p>
+
+        <p class="d-none d-md-block">
+          I enjoy learning how technology works, solving technical problems and
+          developing practical solutions through my ICT studies.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-brand" href="#portfolio">View portfolio</a>
+          <a class="btn btn-ghost" href="pdf/Resume (Assessment).png" target="_blank">Open resume</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 text-center">
+        <img src="img/myintropic.jpeg" class="img-fluid hero-img" alt="Portrait of Kotiv Legaspi">
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT — cards are review from Module 2.2 / 2.3 -->
+  <!-- ABOUT — Personal snapshot -->
+  <section class="container section-block" id="aboutme">
+    <div class="section-intro">
+      <p class="eyebrow">Personal snapshot</p>
+      <h2>About Me</h2>
+      <p>
+        Get to know my background, education and experience
+        as I work towards a career in ICT.
+      </p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <!-- CARD 1 — INTRODUCTION -->
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/aboutme.png.png"
+               class="card-img-top"
+               alt="Personal profile image">
+
+          <div class="card-body">
+            <h3 class="card-title">Who I Am</h3>
+
+            <p class="card-text">
+              My name is Kotiv Legaspi, and I'm an Information
+              Technology student with a strong interest in
+              cybersecurity, networking and IT infrastructure.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 2 — EDUCATION -->
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/educationpic.png"
+               class="card-img-top"
+               alt="Education and academic background">
+
+          <div class="card-body">
+            <h3 class="card-title">Education</h3>
+
+            <p class="card-text">
+              Currently studying Diploma of Information
+              and Communications Technology at Western Sydney
+              University.
+            </p>
+
+            <ul>
+              <li>Diploma of ICT — Western Sydney University</li>
+              <li>STEM Senior High School — Saint Joseph's Academy</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 3 — SKILLS -->
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/skills.png"
+               class="card-img-top"
+               alt="Technical skills and academic experience">
+
+          <div class="card-body">
+            <h3 class="card-title">Skills</h3>
+
+            <p class="card-text">
+              Studying as an ICT student at WSU
+              helped me develop practical technical skills.
+            </p>
+
+            <ul>
+              <li>Java Programming</li>
+              <li>Database Design & Management</li>
+              <li>Photography</li>
+              <li>Web Designing</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO — Bootstrap cards and reusable modal -->
+  <section class="container section-block" id="portfolio">
+    <div class="section-intro">
+      <p class="eyebrow">Selected work</p>
+      <h2>My Projects</h2>
+      <p>
+        A collection of academic projects demonstrating my skills
+        in programming, visual analysis, photography and web development.
+      </p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4">
+
+      <!-- PROJECT 1 — PROGRAMMING FUNDAMENTALS -->
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/programming.png" class="card-img-top"
+               alt="Programming Fundamentals project presentation">
+
+          <div class="card-body">
+            <h3 class="card-title">Programming Fundamentals</h3>
+            <p class="card-text">
+              An academic project exploring programming concepts
+              and algorithmic design.
+            </p>
+
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/programming.png"
+                    data-project-title="Programming Fundamentals"
+                    data-project-description="An academic programming project exploring fundamental concepts, logical thinking and algorithmic design.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- PROJECT 2 — ART AND PHOTOGRAPHY ANALYSIS -->
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/artanalysis.png" class="card-img-top"
+               alt="Art and photography analysis presentation">
+
+          <div class="card-body">
+            <h3 class="card-title">Art &amp; Photography Analysis</h3>
+            <p class="card-text">
+              A visual research project examining photographic works,
+              artistic techniques and creative communication.
+            </p>
+
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/artanalysis.png"
+                    data-project-title="Art &amp; Photography Analysis"
+                    data-project-description="A research-based visual analysis examining photographic works by established photographers, including composition, lighting and visual communication.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- PROJECT 3 — DIGITAL PHOTOGRAPHY -->
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/photography.png" class="card-img-top"
+               alt="Collection of original photographs taken around Penrith">
+
+          <div class="card-body">
+            <h3 class="card-title">Digital Photography Portfolio</h3>
+            <p class="card-text">
+              A collection of original photographs exploring
+              composition, perspective, lighting and everyday environments.
+            </p>
+
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/photography.png"
+                    data-project-title="Digital Photography Portfolio"
+                    data-project-description="A photographic portfolio featuring original images taken around Penrith, exploring framing, perspective, leading lines and environmental storytelling.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- PROJECT 4 — HTML PROBLEM-SOLVING -->
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/htmlfix.png" class="card-img-top"
+               alt="Before and after screenshots of HTML debugging">
+
+          <div class="card-body">
+            <h3 class="card-title">HTML Problem-Solving</h3>
+            <p class="card-text">
+              Identifying and correcting HTML errors to improve
+              webpage structure and functionality.
+            </p>
+
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/htmlfix.png"
+                    data-project-title="HTML Problem-Solving"
+                    data-project-description="A website debugging exercise involving HTML structure, stylesheet linking and document corrections, with before-and-after examples showing the improvements.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ONE reusable modal -->
+  <div class="modal fade" id="projectLightbox" tabindex="-1"
+       aria-labelledby="projectLightboxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content project-modal">
+        <div class="modal-header">
+          <h2 class="modal-title" id="projectLightboxLabel">Project title</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/programming.png" class="img-fluid modal-project-img"
+               id="modalProjectImage" alt="Selected portfolio project">
+          <p id="modalProjectDescription" class="modal-description">Project description.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT FORM — HTML + basic Bootstrap grid/form classes -->
+  <section class="container section-block" id="contactme">
+    <div class="row g-4 align-items-start">
+      <div class="col-12 col-lg-5">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in Touch</h2>
+        <p>
+          Interested in connecting about ICT, technology or potential
+          opportunities? Feel free to get in touch.
+        </p>
+        <p class="d-none d-md-block">
+          I am interested in opportunities to learn, collaborate
+          and grow in the ICT field.
+        </p>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <form class="contact-form">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Tell me about your project"></textarea>
+            </div>
+
+            <div class="col-12">
+              <button type="button" class="btn btn-brand" disabled title="Contact details will be added before publication">
+                Contact form coming soon
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+    <p>&copy; 2026 Kotiv Legaspi. ICT Portfolio.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap powers the navigation collapse and portfolio modal. -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+  const themeSwitch = document.querySelector('#themeSwitch');
+  const savedTheme = localStorage.getItem('kotiv-theme') || 'light';
+
+  document.documentElement.setAttribute('data-bs-theme', savedTheme);
+
+  if (themeSwitch) {
+    themeSwitch.checked = savedTheme === 'dark';
+
+    themeSwitch.addEventListener('change', function () {
+      const selectedTheme = this.checked ? 'dark' : 'light';
+
+      document.documentElement.setAttribute('data-bs-theme', selectedTheme);
+      localStorage.setItem('kotiv-theme', selectedTheme);
+    });
+  }
+
+  const projectButtons = document.querySelectorAll('.open-lightbox');
+  const projectImage = document.querySelector('#modalProjectImage');
+  const projectTitle = document.querySelector('#projectLightboxLabel');
+  const projectDescription = document.querySelector('#modalProjectDescription');
+
+  projectButtons.forEach(function(button) {
+    button.addEventListener('click', function () {
+      projectImage.src = this.dataset.projectSrc;
+      projectImage.alt = this.dataset.projectTitle + ' full image';
+      projectTitle.textContent = this.dataset.projectTitle;
+      projectDescription.textContent = this.dataset.projectDescription;
+    });
+  });
+
+</script>
+
+</body>
+</html>
